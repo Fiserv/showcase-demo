@@ -1,6 +1,6 @@
 # Getting Started
 
-Sample
+Version 2
 
 
 ___
