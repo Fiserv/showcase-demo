@@ -258,10 +258,9 @@ components:
     TenantProviderResponse:
       type: object
       properties:
-        foo:
+        previewBranch:
           type: string
-        bar:
-          type: string
+          description: PreviewBranch
         brand:
           type: string
           description: Brand
