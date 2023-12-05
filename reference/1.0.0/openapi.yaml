@@ -258,6 +258,10 @@ components:
     TenantProviderResponse:
       type: object
       properties:
+        foo:
+          type: string
+        bar:
+          type: string
         brand:
           type: string
           description: Brand
