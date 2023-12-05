@@ -260,7 +260,7 @@ components:
       properties:
         previewBranch:
           type: string
-          description: PreviewBranch
+          description: Preview Branch
         brand:
           type: string
           description: Brand
