@@ -258,7 +258,7 @@ components:
     TenantProviderResponse:
       type: object
       properties:
-        version2:
+        version1.1:
           type: string
           description: PreviewBranch
         brand:
