@@ -38,7 +38,7 @@ info:
 servers:
   - url: https://tenants.fiserv.com/
 paths:
-  /v1/products:
+  /v2/products:
     get:
       tags:
         - Tenant
@@ -59,7 +59,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/TenantProviderResponse'
-  /v1/apis:
+  /v2/apis:
     post:
       tags:
         - Specs
@@ -79,7 +79,7 @@ paths:
           description: ""
           content: {}
       x-codegen-request-body-name: Body
-  /v1/docs:
+  /v2/docs:
     get:
       tags:
         - Documents
@@ -99,7 +99,7 @@ paths:
           description: ""
           content: {}
       x-codegen-request-body-name: Body
-  /v1/layouts:
+  /v2/layouts:
     get:
       tags:
         - Layout
@@ -258,7 +258,7 @@ components:
     TenantProviderResponse:
       type: object
       properties:
-        previewBranch:
+        version2:
           type: string
           description: PreviewBranch
         brand:

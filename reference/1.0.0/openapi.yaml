@@ -258,7 +258,7 @@ components:
     TenantProviderResponse:
       type: object
       properties:
-        foo:
+        version1:
           type: string
         brand:
           type: string
